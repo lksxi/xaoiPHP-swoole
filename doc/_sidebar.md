@@ -2,7 +2,6 @@
 
 * 基础
     * [目录结构](doc/dir.md)
-    * [配置](doc/config.md)
 
 * 架构
     * [请求流程](doc/process.md)

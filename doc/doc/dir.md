@@ -2,27 +2,29 @@
 
 ```
 www WEB部署目录
-├─app                   应用目录
-│  ├─config             配置目录
-│  └─index              模块目录
-│     ├─inde.php        控制器文件
-│     ├─...
-│     │
-│     └─view            模板目录
+├─config                配置目录
+│  ├─index              模块目录
+│  └─xaoi               框架目录
+│     ├─bind.php            容器绑定
+│     ├─route.php           路由配置
+│     ├─session.php         session配置
+│     ├─state_code.php      状态码配置
+│     └─swoole.php          swoole配置
+│
+├─app                   自动加载根目录
+│  ├─index                  模块目录
+│  │  └─inde.php                控制器文件
+│  │
+│  └─xaoi               XaoiPHP类库目录
+│     ├─app.php             定义常量
+│     ├─container.php       容器类
+│     ├─function.php        常用函数
+│     ├─mysql.php           mysql类
+│     ├─redis.php           redis类
+│     ├─session.php         session类
+│     └─swoole.php          swoole类
 │
 ├─www                   WEB目录（对外访问目录）
-│  └─static             静态资源
-│     ├─index           模块目录
-│     │  └─index        控制器目录
-│     │     └─index     方法目录(模板使用__THIS__对应目录)
-│     │
-│     ├─html            缓存的js模板文件
-│     └─lib             js工具
-│        ├─t.js         控制模板显示文件
-│        └─u.js         js版url函数(模板添加__URL__)
-│
-├─src
-│  └─xaoi               XaoiPHP类库目录
 │
 ├─vendor                Composer类库目录
 ├─.example.env          环境变量示例文件

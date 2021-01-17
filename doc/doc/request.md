@@ -21,6 +21,8 @@ _header('Location','/');
 
 参数绑定方式是按照变量顺序进行绑定
 ```php
+//app/index/inde.php
+
 <?php
 namespace index;
 

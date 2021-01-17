@@ -30,7 +30,7 @@ class index extends \xaoi\init{
         $data = [0,'Hello,'.$name];
 
         //echo json($data);
-        return json($data);
+        return $data;//自动json
     }
 
 }
