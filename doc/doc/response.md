@@ -4,7 +4,7 @@
 
 ```php
 <?php
-namespace app\index;
+namespace index;
 
 class index extends \xaoi\init{
 
@@ -21,7 +21,7 @@ class index extends \xaoi\init{
 ?> 输出一个JSON数据给客户端（或者AJAX请求），可以使用：
 ```php
 <?php
-namespace app\index;
+namespace index;
 
 class index extends \xaoi\init{
 

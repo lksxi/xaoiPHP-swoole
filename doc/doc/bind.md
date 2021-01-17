@@ -8,7 +8,7 @@
 
 ```php
 <?php
-namespace app\index;
+namespace index;
 
 class index extends \xaoi\init{
 
@@ -78,10 +78,7 @@ bind([
 | :-----| :---- |
 | \xaoi\redis | \xaoi\redis |
 | \xaoi\mysql | \xaoi\mysql |
-| \xaoi\mysql_slave | \xaoi\mysql_slave |
-| \xaoi\route | \xaoi\route |
 | \xaoi\swoole | \xaoi\swoole |
-| \xaoi\view | \xaoi\view |
 
 # 解析
 
